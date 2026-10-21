@@ -38,7 +38,9 @@ The MCP server lives in its own repo (`model-council`), registered user-scoped s
 - [x] OpenRouter key created and registered (user scope)
 - [x] Live verification: `ask`, `council`, `list_models` all working (2026-10-20)
 - [x] GPT default pinned to `gpt-5.6-sol`
-- [ ] Confirm the monthly spend cap is set on the OpenRouter key
+- [x] Spend cap set on the OpenRouter key: $100 total (2026-10-20)
+- [ ] Switch the cap to reset monthly (openrouter.ai → Keys → edit limit → reset: monthly)
+- [x] `model-council` scrubbed and committed, smoke tests pass
 - [ ] Push the `model-council` repo to GitHub
 - [ ] First real use: `/council critique` on a real deck or exec summary
 - [ ] After a few months, review the usage log and decide which app subscriptions (Kimi, Grok, ChatGPT) are still worth keeping

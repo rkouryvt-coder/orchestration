@@ -17,3 +17,8 @@ Append-only running log of work on this project. Newest entries at the bottom. F
 - Done: Widened `.gitignore` to cover `council/*` (except `.gitkeep`), `.claude/`, editor folders, `node_modules/`, `*.tmp` and `*.jsonl`. Removed personal paths and work context from the docs before the first public push.
 - State: Council outputs stay local because they may contain client material.
 - Next: Confirm the OpenRouter spend cap. Push the `model-council` repo. Run the first real `/council critique`.
+
+## 2026-10-20 21:15 — model-council scrubbed, spend cap checked
+- Done: Replaced the client names and personal paths in the `model-council` README examples with generic ones. Set its commit email to the GitHub noreply address and amended its single commit. All 6 smoke tests pass. Checked the OpenRouter key limit through the API.
+- State: The key has a $100 cap with no reset, so it's lifetime, not monthly. About $0.01 spent so far. The `model-council` repo is committed locally but not on GitHub, because creating the repo needs the founder's approval.
+- Next: Set the cap to reset monthly on openrouter.ai. Create and push the `model-council` GitHub repo. Run the first real `/council critique`.
