@@ -1,0 +1,22 @@
+.DS_Store
+.env
+.env.*
+*.log
+
+# secrets: never commit API keys
+*.key
+*.pem
+secrets*
+.claude/settings.local.json
+
+# council outputs may contain client material: keep local only
+council/*
+!council/.gitkeep
+
+# local tooling and editor state
+.claude/
+.vscode/
+.idea/
+node_modules/
+*.tmp
+*.jsonl
